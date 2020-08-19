@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Activity 5: Ajax Interactions</title>
+</head>
+<body>
+	<form>
+		<fieldset>
+			<legend>Weather Report Using City and Country Code</legend>
+			<label>City:
+				<input type="text" name="city_input" id="city">
+			</label>
+			<br>
+			<label>Country Code:
+				<input type="text" name="country_code1" id='country_code1'>
+			</label>
+			<br>
+			<input type="button" value="Submit" onclick="weather1()">
+		</fieldset>
+	</form>
+	<p id="weather1"></p>
+	<br>
+	<form>
+		<legend>Weather Report Using Country and Zip Code</legend>
+			<label>Country Code:
+				<input type="text" name="country_code2" id="country_code2">
+			</label>
+			<br>
+			<label>Zip Code:
+				<input type="text" name="zip" id='zip'>
+			</label>
+			<br>
+			<input type="button" value="Submit" onclick="weather2()">
+		</fieldset>
+	</form>
+	<p id="weather2"></p>
+	<br>
+
+	<form>
+		<fieldset>
+			<legend>POST</legend>
+			<label>Text
+				<input type="text" name="post_input" id="post_input">
+			</label>
+			<br>
+			<input type="button" value="Submit" onclick="post()">
+		</fieldset>
+	</form>
+	<p id="post_par"></p> 
+	<script type="text/javascript" src="Activity 5.js"></script>
+</body>
+</html>
